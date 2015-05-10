@@ -51,6 +51,7 @@ public class Fopator {
 		source.setAutoCreateDirectory(true);
 		source.setFilter(new CompositeFileListFilter<>(
 				Arrays.asList(
+						new AgeFileListFilter(config.getXmlFileAge()),
 						new AcceptOnceFileListFilter<File>(config.getXmlSeenFilesQueueSize()),
 						new RegexPatternFileListFilter(config.getXmlFilePattern())
 				)));

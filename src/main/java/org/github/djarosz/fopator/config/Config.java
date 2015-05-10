@@ -22,6 +22,8 @@ public class Config {
 
 	private int xmlSeenFilesQueueSize;
 
+	private long xmlFileAge;
+
 	private int pdfGeneratorQueueSize;
 
 	private int pdfGeneratorThreads;
