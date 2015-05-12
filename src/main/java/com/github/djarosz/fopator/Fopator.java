@@ -1,11 +1,11 @@
-package org.github.djarosz.fopator;
+package com.github.djarosz.fopator;
 
+import com.github.djarosz.fopator.config.Config;
+import com.github.djarosz.fopator.config.RegexFileMapperConfig;
+import com.github.djarosz.fopator.pdf.PdfCreator;
 import java.io.File;
 import java.util.Arrays;
 import java.util.concurrent.Executor;
-import org.github.djarosz.fopator.config.Config;
-import org.github.djarosz.fopator.config.RegexFileMapperConfig;
-import org.github.djarosz.fopator.pdf.PdfCreator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

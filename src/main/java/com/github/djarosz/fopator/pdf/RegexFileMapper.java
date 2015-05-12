@@ -1,10 +1,10 @@
-package org.github.djarosz.fopator.pdf;
+package com.github.djarosz.fopator.pdf;
 
+import com.github.djarosz.fopator.config.RegexFileMapperConfig;
 import java.io.File;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.annotation.PostConstruct;
-import org.github.djarosz.fopator.config.RegexFileMapperConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

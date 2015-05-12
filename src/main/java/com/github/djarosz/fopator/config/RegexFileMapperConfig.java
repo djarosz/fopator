@@ -1,4 +1,4 @@
-package org.github.djarosz.fopator.config;
+package com.github.djarosz.fopator.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,5 +1,6 @@
-package org.github.djarosz.fopator.pdf;
+package com.github.djarosz.fopator.pdf;
 
+import com.github.djarosz.fopator.config.Config;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -15,8 +16,7 @@ import org.apache.fop.apps.FOUserAgent;
 import org.apache.fop.apps.Fop;
 import org.apache.fop.apps.FopFactory;
 import org.apache.fop.apps.MimeConstants;
-import org.github.djarosz.fopator.config.Config;
-import org.github.djarosz.fopator.xslt.XsltTransformerProvider;
+import com.github.djarosz.fopator.xslt.XsltTransformerProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

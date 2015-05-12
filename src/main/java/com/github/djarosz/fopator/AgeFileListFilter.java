@@ -1,4 +1,4 @@
-package org.github.djarosz.fopator;
+package com.github.djarosz.fopator;
 
 import java.io.File;
 import org.springframework.integration.file.filters.AbstractFileListFilter;

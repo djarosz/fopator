@@ -1,4 +1,4 @@
-package org.github.djarosz.fopator.config;
+package com.github.djarosz.fopator.config;
 
 import java.io.File;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package org.github.djarosz.fopator.xslt;
+package com.github.djarosz.fopator.xslt;
 
 import java.io.File;
 import javax.xml.transform.Transformer;

@@ -1,4 +1,4 @@
-package org.github.djarosz.fopator.pdf;
+package com.github.djarosz.fopator.pdf;
 
 import java.io.File;
 

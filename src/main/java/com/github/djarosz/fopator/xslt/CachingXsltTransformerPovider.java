@@ -1,4 +1,4 @@
-package org.github.djarosz.fopator.xslt;
+package com.github.djarosz.fopator.xslt;
 
 import java.io.File;
 import java.io.StringReader;
@@ -19,7 +19,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.sax.SAXSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-import org.github.djarosz.fopator.config.Config;
+import com.github.djarosz.fopator.config.Config;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
