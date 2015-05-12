@@ -4,7 +4,7 @@
 
 	<groupId>com.github.dyarosh.fopator</groupId>
 	<artifactId>fopator</artifactId>
-	<version>0.2.0</version>
+	<version>0.2.1-SNAPSHOT</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -16,7 +16,7 @@
 		<connection>scm:git:git@github.com:djarosz/fopator.git</connection>
 		<url>scm:git:git@github.com:djarosz/fopator.git</url>
 		<developerConnection>scm:git:git@github.com:djarosz/fopator.git</developerConnection>
-	  <tag>fopator-0.2.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<dependencies>
