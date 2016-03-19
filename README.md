@@ -1,11 +1,12 @@
 # fopator: Formating Object PDF Creator
 
-fopator is bulk PDF creator. It reads XML data from one folder,  XSL (thus creating objects Formating objects file)
+fopator is bulk PDF creator. It reads XML data from one folder pairs it with XSLT and creates Apache FOP
+framework to create resulting PDF file
 
 Features:
 - generates PDFSs in many threads (for performance reasons)
 - different xslt locations and PDF output locations can be configured using regular expressions on original XML file
-- configurable (you can define you own application.properties file and overide default values)
+- configurable (you can define you own application.properties file and override default values)
   For configuration parametres see default [application.properties](./src/main/resources/application.properties) file
 
 To run example:
