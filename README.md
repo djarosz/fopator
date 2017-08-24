@@ -1,4 +1,4 @@
-# fopator: Formating Object PDF Creator
+# fopator - Formating Object PDF Creator
 
 fopator is bulk PDF creator. It reads XML data from one folder pairs it with XSLT and creates Apache FOP
 framework to create resulting PDF file
@@ -11,7 +11,9 @@ Features:
 
 To run example:
 
+```
   ./example/run.sh
+```
 
 Main components:
 - Spring Boot
